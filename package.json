@@ -16,5 +16,15 @@
   "devDependencies": {
     "typescript": "~5.6.2",
     "vite": "^5.4.9"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PavelescuVictor/library-throttle.git"
+  },
+  "author": "Victor Pavelescu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PavelescuVictor/library-throttle/issues"
+  },
+  "homepage": "https://github.com/PavelescuVictor/library-throttle#readme"
 }
