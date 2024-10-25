@@ -21,7 +21,9 @@
     "test:dev:debug": "vitest --silent=false",
     "test": "vitest run",
     "preview": "vite preview",
-    "pre-commit": "pnpm run lint && pnpm run test"
+    "pre-commit": "pnpm run lint && pnpm run test",
+    "playground": "pnpm ts-node src/playground.ts",
+    "playground:watch": "pnpm ts-node-dev --respawn src/playground.ts"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.5.0",
