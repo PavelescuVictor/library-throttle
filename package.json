@@ -17,15 +17,18 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "tsc",
-    "preview": "vite preview",
     "test:dev": "vitest",
     "test:dev:debug": "vitest --silent=false",
-    "test": "vitest run"
+    "test": "vitest run",
+    "preview": "vite preview",
+    "pre-commit": "pnpm run lint && pnpm run test"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.5.0",
     "@commitlint/config-conventional": "^19.5.0",
     "@types/node": "^22.8.0",
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10",
     "prettier": "^3.3.3",
     "typescript": "~5.6.2",
     "vite": "^5.4.9",
