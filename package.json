@@ -17,11 +17,11 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "tsc",
-    "preview": "vite preview",
     "test:dev": "vitest",
     "test:dev:debug": "vitest --silent=false",
     "test": "vitest run",
-    "prepare": "husky"
+    "preview": "vite preview",
+    "pre-commit": "pnpm run lint && pnpm run test"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.5.0",
