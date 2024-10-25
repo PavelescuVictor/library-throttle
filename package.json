@@ -20,12 +20,14 @@
     "preview": "vite preview",
     "test:dev": "vitest",
     "test:dev:debug": "vitest --silent=false",
-    "test": "vitest run"
+    "test": "vitest run",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.5.0",
     "@commitlint/config-conventional": "^19.5.0",
     "@types/node": "^22.8.0",
+    "husky": "^9.1.6",
     "prettier": "^3.3.3",
     "typescript": "~5.6.2",
     "vite": "^5.4.9",
